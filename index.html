@@ -6,7 +6,7 @@
     
     
     
-    <title>categories | 尖无 | 头都疼</title>
+    <title>尖无 | 头都疼</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
@@ -41,14 +41,13 @@
     
     <meta name="description" content="前端前端前端">
 <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta property="og:title" content="尖无">
+<meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="尖无">
 <meta property="og:description" content="前端前端前端">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-12T07:37:23.595Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="尖无">
 <meta name="twitter:description" content="前端前端前端">
     
     <link rel="shortcut icon" href="/">
@@ -83,14 +82,14 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-              <li class="waves-block waves-effect">
+              <li class="waves-block waves-effect active">
                   <a href="/"  >
                     <i class="icon icon-lg icon-home"></i>
                     <span>主 页</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
-              <li class="waves-block waves-effect active">
+              <li class="waves-block waves-effect">
                   <a href="/categories"  >
                     <i class="icon icon-lg icon-th-list"></i>
                     <span>分 类</span><i class="icon icon-lg icon-caret-left"></i>
@@ -142,7 +141,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">分类</div>
+        <div class="flex-col header-title ellipsis">尖无</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -159,29 +158,19 @@
         </a>
     </div>
 </header>
-<header class="content-header categories-header">
+<header class="content-header index-header">
 
 
     <div class="container fade-scale">
         <div id="myheader">
             <h1 class="title">
                 
+                    尖无
+                
             </h1>
             <h5 class="subtitle">
                 
-                    <h1 id="pagetitle" class="archivestitle"></h1>
-                    <script>
-                        if(location.href.indexOf('about')!=-1){
-                            pagetitle.textContent = '尖无111';
-                        }else if(location.href.indexOf('tags')!=-1||location.href.indexOf('categories')!=-1){
-                            var a=location.href.substring(location.href.length-5,location.href.length-1);
-                            if(a==='tags'){
-                                pagetitle.textContent = '暂时没想到111';
-                            }else if(a==='ries'){
-                                pagetitle.textContent = '暂时没想到222';
-                            }
-                        }
-                    </script>
+                    
                 
             </h5>
         </div>
@@ -189,26 +178,54 @@
 
 </header>
 
-<div class="container body-wrap fade">
+<div class="container body-wrap">
+    <ul class="post-list">
     
-    	<h5 class="tag-tip">
-            <i class="icon icon-lg icon-th-list"></i>
-            目前共&nbsp;1&nbsp;大分类
-        </h5>
-        <div class="card-pool">
-            
-                    <a class="MyTagLink" href="/categories/捣鼓/" itemprop="url">
-    <div class="card-card">
-        <div class="card-container">
-            <span href="/categories/捣鼓/" class="card-link">捣鼓</span>
-            <span class="card-count">
-                (1)
-            </span>
+        <li class="post-list-item fade">
+            <article id="post-一篇文章"
+  class="article-card article-type-post" itemprop="blogPost">
+
+    
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a href="/2018/10/12/一篇文章/">一篇文章</a>
+    </h3>
+  
+
+
+
+
+     <div class="post-meta">
+        <time class="post-time" title="2018-10-12 15:51:03" datetime="2018-10-12T07:51:03.000Z"  itemprop="datePublished">2018-10-12</time>
+
+    </div>
+
+    <div class="post-content" id="post-content" itemprop="postContent">
+
+    
+        
+    
+        <div>
+            <a href="/2018/10/12/一篇文章/" class="post-more waves-button">
+                Continue reading...
+            </a>
         </div>
     </div>
-</a>
-                    
-        </div>
+    
+    <div class="post-footer">
+        
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </div>
+    
+</article>
+
+        </li>
+    
+    </ul>
+
     
 
 </div>
